@@ -24,8 +24,12 @@ header h1 {
 header p {
     margin-top: 1rem;
     font-size: 1.2rem;
-    color: #c5c6c7;
+    color: #c8dbed;
+   
+   
 }
+
+
 
 nav ul {
     list-style: none;
@@ -36,6 +40,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 15px;
+    border-radius: 8px;
 }
 
 nav ul li a {
@@ -56,9 +61,13 @@ section {
 h2 {
     text-align: center;
     margin-bottom: 1rem;
-    color: #1b2121;
+    color: #850a7c;
 }
-
+h3 
+{
+    color: #111818;
+    transform: rotateX('angle');
+}
 /* Compétences */
 .skills-grid {
     display: flex;
@@ -110,7 +119,8 @@ h2 {
 .project-card h3 {
     margin: 0;
     padding: 1rem;
-    color: #b96794;
+    color: #e0bed0;
+    
 }
 
 .project-card p {
@@ -141,7 +151,7 @@ form input, form textarea {
 form button {
     background: #b13677;
     color: #ffffff;
-    cursor: pointer;
+    cursor: grab;
 }
 
 form button:hover {
